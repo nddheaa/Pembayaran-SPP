@@ -19,7 +19,6 @@ Selamat datang di repositori Web Pembayaran SPP! 🎉 Proyek ini bertujuan untuk
 - **Framework**: Laravel 🛠️
 - **Database**: MySQL 🗄️
 
-
 ## 📋 Cara Instalasi
 
 1. **Clone Repository**:
@@ -54,6 +53,31 @@ Selamat datang di repositori Web Pembayaran SPP! 🎉 Proyek ini bertujuan untuk
 6. **Buka di Browser**:
     Buka `http://localhost:8000` di browser favorit Anda. 🌐
 
+## ➕ Buat Pengguna Operator
+
+Setelah instalasi selesai, Anda dapat membuat pengguna `operator` dengan menggunakan Laravel Tinker.
+
+1. **Buka Tinker**:
+    ```bash
+    php artisan tinker
+    ```
+
+2. **Buat Pengguna Operator**:
+    ```php
+    User::create([
+        'name' => 'operator',
+        'email' => 'operator1@contoh.com',
+        'password' => bcrypt('1'),
+        'akses' => 'operator',
+        'nohp' => '081234567890',
+        'nohp_verified_at' => now(),
+        'email_verified_at' => now(),
+    ]);
+    ```
+
+3. **Keluar dari Tinker**:
+    ```php
+    exit
+    ```
 
 Terima kasih telah menggunakan Web Pembayaran SPP! 🚀💖
-

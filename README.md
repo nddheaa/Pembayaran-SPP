@@ -5,6 +5,7 @@ Selamat datang di repositori Web Pembayaran SPP! 🎉 Proyek ini bertujuan untuk
 ## 🚀 Fitur Utama
 
 - **Melakukan Pembayaran**: Memudahkan pembayaran SPP melalui berbagai metode pembayaran. 💳📲
+- **Riwayat Pembayaran**: Melihat riwayat transaksi pembayaran SPP📲
 - **Cetak Kwitansi**: Cetak bukti pembayaran secara instan. 🧾
 - **Cetak Kartu SPP**: Dapatkan kartu SPP dengan mudah. 🏷️
 - **Dashboard Admin**: Kelola dan monitoring pembayaran dengan mudah. 📊🔧

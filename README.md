@@ -13,7 +13,9 @@ Selamat datang di repositori Web Pembayaran SPP! 🎉 Proyek ini bertujuan untuk
 
 ## 📸 Tampilan
 
-![Tampilan Utama](link-ke-gambar-tampilan.png)
+![Tampilan Utama](https://github.com/nddheaa/Pembayaran-SPP/blob/master/images/Screenshot%20(101).png)
+
+![Tampilan Utama](https://github.com/nddheaa/Pembayaran-SPP/blob/master/images/Screenshot%20(129).png)
 
 ## 🛠️ Teknologi yang Digunakan
 
